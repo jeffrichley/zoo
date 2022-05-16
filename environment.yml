@@ -1,0 +1,21 @@
+name: zoo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - cvxopt
+  - opencv
+  - tqdm
+  - gym
+  - matplotlib
+  - imageio
+  - pyyaml
+  - pip
+  - cython
+  - pip:
+    - tensorflow
+    - imageio-ffmpeg
+    - supersuit
+    - pettingzoo[atari]
